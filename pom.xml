@@ -45,6 +45,7 @@
 			<version>2.18.1</version>
 		</dependency>
 
+		<!-- Logback for logging -->
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-core</artifactId>
