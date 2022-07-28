@@ -13,8 +13,6 @@ import com.selenium.pages.PageGenerator;
 public class BaseTest {	
 	public static ThreadLocal<WebDriver> tdriver = new ThreadLocal<WebDriver>();
     
-    protected WebDriverWait wait;
-    
     protected PageGenerator page;
 
     @BeforeClass
@@ -23,7 +21,7 @@ public class BaseTest {
     	
         WebDriver driver = new ChromeDriver();
         
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        new WebDriverWait(driver, Duration.ofSeconds(10));
         
         page = new PageGenerator();
         
