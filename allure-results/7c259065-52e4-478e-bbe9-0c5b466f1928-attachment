@@ -1,1 +1,0 @@
-Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//p[normalize-space()='Invalid login'])[1]' (tried for 10 second(s) with 500 milliseconds interval)
