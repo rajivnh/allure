@@ -63,7 +63,6 @@
 		<dependency>
 			<groupId>org.aspectj</groupId>
 			<artifactId>aspectjweaver</artifactId>
-			<version>1.9.9</version>
 		</dependency>
 
 		<dependency>
@@ -84,7 +83,7 @@
 						<suiteXmlFile>TestNG.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					<argLine>
-						-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/1.9.9/aspectjweaver-1.9.9.jar"
+						-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar"
 					</argLine>
 					<systemProperties>
 						<property>
@@ -93,13 +92,6 @@
 						</property>
 					</systemProperties>
 				</configuration>
-				<dependencies>
-					<dependency>
-						<groupId>org.aspectj</groupId>
-						<artifactId>aspectjweaver</artifactId>
-						<version>1.9.9</version>
-					</dependency>
-				</dependencies>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
